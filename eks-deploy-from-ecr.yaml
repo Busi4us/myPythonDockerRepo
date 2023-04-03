@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-python-app
-        image: 780252923343.dkr.ecr.us-east-2.amazonaws.com/python-app-repo
+        image: eks-deploy-from-ecr.yaml
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
